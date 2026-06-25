@@ -6,7 +6,7 @@
 /*   By: yorimek <yorimek@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/24 14:05:24 by yorimek           #+#    #+#             */
-/*   Updated: 2026/06/25 10:55:52 by yorimek          ###   ########.fr       */
+/*   Updated: 2026/06/25 17:08:03 by yorimek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ void	ClapTrap::attack(const std::string &target)
 void	ClapTrap::takeDamage(unsigned int amount)
 {
 	if (this->_hit_pts <= 0)
-		std::cout << "ClapTrap " << this->_name << ": \"Stop kicking my ass i'm already dead !\"" << std::endl;
+		std::cout << "ClapTrap " << this->_name << ": \"Stop kicking my ass I'm already dead !\"" << std::endl;
 	else
 	{
 		if (this->_hit_pts <= amount)

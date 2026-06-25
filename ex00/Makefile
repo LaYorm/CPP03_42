@@ -6,7 +6,7 @@ YELLOW      = \033[1;33m
 RESET       = \033[0m
 #---------------------
 
-NAME = ex00
+NAME = claptrap
 CFLAGS = c++ -Wall -Wextra -Werror -std=c++98 -Iinclude
 
 OBJ_DIR = objs/
