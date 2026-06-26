@@ -63,7 +63,7 @@ int	main()
 	Warrior_4.takeDamage(100);	
 	Warrior_4.guardGate();
 	std::cout << std::endl << std::endl;
-	std::cout << "TEST FOR SCAVTRAP" << std::endl << std::endl;
+	std::cout << "TEST FOR FragTrap" << std::endl << std::endl;
 
 	Warrior_5.attack("Vador");
 	Warrior_5.takeDamage(50);
